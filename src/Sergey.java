@@ -1,5 +1,3 @@
-import org.w3c.dom.ls.LSOutput;
-
 import java.text.SimpleDateFormat;
 import java.util.Comparator;
 import java.util.TreeSet;
@@ -76,6 +74,15 @@ public class Sergey extends Man {
             PrintStoryString.printStringToConsole(project.projectDescription);
             System.out.println();
         }
+
+        PrintStoryString.printStringToConsole("For this presentation were used basics of Java like:\n" +
+                "- singletons\n" +
+                "- enums\n" +
+                "- Java Collections\n" +
+                "- working with Comparator\n"+
+                "- inheritance\n"+
+                "- working with Date and Calendar classes\n");
+
         PrintStoryString.printStringToConsole("Code is available via GitHub - https://github.com/nbdl1/CV");
     }
 }
