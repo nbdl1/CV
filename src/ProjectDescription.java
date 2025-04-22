@@ -1,5 +1,5 @@
 public enum ProjectDescription {
-    CURTAIN_APP_PROJECT("App has a CRM, SKU creator and Calculator ,PDF Offer creator and other functions."),
+    CURTAIN_APP_PROJECT("Application has a CRM functionality, SKU creator and Calculator ,PDF Offer creator and other functions."),
     AM_I_BULGARIAN("This application allows you to easily and quickly check the status of your case\n" +
             "with the Directorate of Bulgarian Citizenship (Дирекция Българско гражданство)\n" +
             "without using a browser and entering your case number and code\n" +

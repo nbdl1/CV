@@ -9,7 +9,7 @@ public class Main {
         sergey.applyToJob(new Job("Industrial Manufacturer", "Service Manager", getJobOrProjectStartDateCalendarEntity("01.06.2011")));
         sergey.applyToJob(new Job("Computers and Electronic devices Manufacturer", "Channel Executive", getJobOrProjectStartDateCalendarEntity("01.10.2012")));
         sergey.doSelfDevelopment("Java");
-        sergey.startAProject(new Project("Certain curtain produces and installer company", "Owner", getJobOrProjectStartDateCalendarEntity("01.11.2023")));
+        sergey.startAProject(new Project("App for curtain and SDS Systems producer and installer company", "Owner", getJobOrProjectStartDateCalendarEntity("01.11.2023")));
         sergey.startAProject(new Project("Am I Bulgarian App", "Owner", getJobOrProjectStartDateCalendarEntity("01.10.2024")));
         sergey.telltheExperienceStory();
     }

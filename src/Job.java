@@ -22,7 +22,7 @@ public class Job extends Work {
         return switch (employerName) {
             case "Distributor of network equipment" -> JobDuties.FIRST_EMPLOYER.getJobDuties();
             case "Industrial Manufacturer" -> JobDuties.SECOND_EMPLOYER.getJobDuties();
-            case "Computer and Electronic device Manufacturer" -> JobDuties.THIRD_EMPLOYER.getJobDuties();
+            case "Computers and Electronic devices Manufacturer" -> JobDuties.THIRD_EMPLOYER.getJobDuties();
             default -> "";
         };
     }
