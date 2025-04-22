@@ -1,5 +1,5 @@
 public enum JobDuties {
-    MEGATRADE("- increasing of profit level;\n" +
+    FIRST_EMPLOYER("- increasing of profit level;\n" +
             "- partner network development;\n" +
             "- business planning;\n" +
             "- conducting business negotiations with constant and new clients;\n" +
@@ -11,7 +11,7 @@ public enum JobDuties {
             "- market research;\n" +
             "- development and improvement of ERP-systems;\n" +
             "- training of staff of sales department."),
-    APC("- developing new opportunities for service sales; \n" +
+    SECOND_EMPLOYER("- developing new opportunities for service sales; \n" +
             "- working out service contracts according to customer's needs; \n" +
             "- working out technical and commercial service quotation;\n" +
             "- developing service offer & service pricing;\n" +
@@ -24,7 +24,7 @@ public enum JobDuties {
             "- cooperation with other departments throughout EMEA region; \n" +
             "- performing trainings for APC partners and customers; \n" +
             "- adjustment of logistic flows."),
-    ASUS("- managing a channel team;\n" +
+    THIRD_EMPLOYER("- managing a channel team;\n" +
             "- developing incentive/rebate sales programs for channel dealers/etailers;\n" +
             "- supervising of target achievement by sales team;\n" +
             "- close cooperation with biggest etailers;\n" +

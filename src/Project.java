@@ -15,7 +15,7 @@ public class Project extends Work {
     private String getProjectDescription(String projectName) {
         return switch (projectName) {
             case "Am I Bulgarian App" -> ProjectDescription.AM_I_BULGARIAN.getProjectDescription();
-            case "Certain curtain produces and installer company" ->
+            case "Certain curtain and SDS Systems producer and installer company" ->
                     ProjectDescription.CURTAIN_APP_PROJECT.getProjectDescription();
             default -> "";
         };

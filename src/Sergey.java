@@ -39,7 +39,7 @@ public class Sergey extends Man {
 
     public void applyToJob(Job job) {
         if (!jobExperience.isEmpty()) {
-            jobExperience.getFirst().finishDate = job.startDate;
+            jobExperience.getLast().finishDate = job.startDate;
         }
         jobExperience.add(job);
     }
@@ -48,8 +48,8 @@ public class Sergey extends Man {
         projectsInvolvedIn.add(project);
     }
 
-    public void doSelfDevelopment(String hardSkilllearned) {
-        this.hardSkills.add(new HardSkill(hardSkilllearned));
+    public void doSelfDevelopment(String hardSkillLearned) {
+        this.hardSkills.add(new HardSkill(hardSkillLearned));
     }
 
     public void telltheExperienceStory() {

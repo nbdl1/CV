@@ -5,9 +5,9 @@ public class Main {
         Sergey sergey = Sergey.toBeBorn();
         sergey.getSchoolKnowledge();
         sergey.getUniversityKnowledge();
-        sergey.applyToJob(new Job("Megatrade", "Senior sales specialist", getJobOrProjectStartDateCalendarEntity("01.09.2008")));
-        sergey.applyToJob(new Job("APC by Schneider Electric", "Service Manager", getJobOrProjectStartDateCalendarEntity("01.06.2011")));
-        sergey.applyToJob(new Job("ASUS", "Channel Executive", getJobOrProjectStartDateCalendarEntity("01.10.2012")));
+        sergey.applyToJob(new Job("Distributor of network equipment", "Senior sales specialist", getJobOrProjectStartDateCalendarEntity("01.09.2008")));
+        sergey.applyToJob(new Job("Industrial Manufacturer", "Service Manager", getJobOrProjectStartDateCalendarEntity("01.06.2011")));
+        sergey.applyToJob(new Job("Computers and Electronic devices Manufacturer", "Channel Executive", getJobOrProjectStartDateCalendarEntity("01.10.2012")));
         sergey.doSelfDevelopment("Java");
         sergey.startAProject(new Project("Certain curtain produces and installer company", "Owner", getJobOrProjectStartDateCalendarEntity("01.11.2023")));
         sergey.startAProject(new Project("Am I Bulgarian App", "Owner", getJobOrProjectStartDateCalendarEntity("01.10.2024")));
