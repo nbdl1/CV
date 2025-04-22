@@ -51,13 +51,12 @@ public class Sergey extends Man {
     }
 
     public void doSelfDevelopment(String hardSkilllearned) {
-        System.out.println("Then I started to develop myself and learned a bit of "+hardSkilllearned);
         this.hardSkills.add(new HardSkill(hardSkilllearned));
     }
 
     public void telltheExperienceStory() {
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
-        PrintStoryString.printStringToConsole("So, let's go further.");
+        PrintStoryString.printStringToConsole("So, let's proceed to the main topic.");
         PrintStoryString.printStringToConsole("\nWork experience:");
         for (Job job : jobExperience) {
             PrintStoryString.printStringToConsole(dateFormat.format(job.startDate.getTime()) + " - " + dateFormat.format(job.finishDate.getTime()));
@@ -67,7 +66,9 @@ public class Sergey extends Man {
             PrintStoryString.printStringToConsole(job.jobDuties);
             System.out.println();
         }
-        PrintStoryString.printStringToConsole("Projects:");
+        PrintStoryString.printStringToConsole("Then I tried to develop myself and learned a bit of Java.\n" +
+                "And then I've started some projects:\n");
+
         for (Project project : projectsInvolvedIn) {
             PrintStoryString.printStringToConsole(dateFormat.format(project.startDate.getTime()));
             PrintStoryString.printStringToConsole(project.projectName);
@@ -75,5 +76,6 @@ public class Sergey extends Man {
             PrintStoryString.printStringToConsole(project.projectDescription);
             System.out.println();
         }
+        PrintStoryString.printStringToConsole("Code is available via GitHub - https://github.com/nbdl1/CV");
     }
 }
