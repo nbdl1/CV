@@ -26,7 +26,7 @@ public enum JobDuties {
             "- adjustment of logistic flows."),
     THIRD_EMPLOYER("- managing a channel team;\n" +
             "- developing incentive/rebate sales programs for channel dealers/etailers;\n" +
-            "- supervising of target achievement by sales team;\n" +
+            "- leading a regional B2B sales team, focused on strategic growth across channel partners;\n" +
             "- close cooperation with biggest etailers;\n" +
             "- quarterly reporting to HQ.");
 
