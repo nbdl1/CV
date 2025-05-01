@@ -81,6 +81,7 @@ public class Sergey extends Man {
                 "- Java Collections\n" +
                 "- working with Comparator\n"+
                 "- inheritance\n"+
+                "- encapsulation\n"+
                 "- working with Date and Calendar classes\n");
 
         PrintStoryString.printStringToConsole("Code is available via GitHub - https://github.com/nbdl1/CV");
