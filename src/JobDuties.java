@@ -13,7 +13,7 @@ public enum JobDuties {
     SECOND_EMPLOYER(
             "- developing and customizing service-level agreements (SLAs) and support contracts tailored to customer business requirements; \n" +
             "- creating and maintaining technical and commercial service proposals, ensuring solution profitability;\n" +
-            "- -overseeing service delivery operations, including resource planning, escalation management, and quality assurance;\n" +
+            "- overseeing service delivery operations, including resource planning, escalation management, and quality assurance;\n" +
             "- managing cross-functional service team (service coordinator and 4 field engineers) across Ukraine and Moldova;\n" +
             "- holding P&L responsibility for the regional service business; driving improvements in margin and service revenue;\n" +
             "- optimized internal service processes, implementing scalable procedures for ticketing, scheduling, and logistics;\n" +
